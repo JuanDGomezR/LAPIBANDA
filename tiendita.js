@@ -2,7 +2,7 @@
 
 
 const listProducts = async () => {
-  const response = await fetch(`http://localhost:3000/api/v1/products/page${limit}`);
+  const response = await fetch(`http://localhost:3000/api/v1/products`);
   
 
   let tableBody = ``;
